@@ -3,7 +3,6 @@ $(document).ready(function () {
     /*Declare global variables*/
 
     var answer = parseInt(Math.random() * 100);
-    console.log(answer);
     var intGuess;
     var guessCount = 0;
     var oldGuess = 0;
